@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMPOSURE GOLDS KE - Premium Gold Indicator</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0a0a0a;color:#fff;font-family:system-ui,Arial}
+.header{background:#FFD700;color:#000;padding:18px;text-align:center;font-weight:900;letter-spacing:1px}
+.wrap{max-width:440px;margin:0 auto;padding:16px}
+.card{border:2px solid #FFD700;border-radius:16px;padding:22px;background:#121212}
+.price{font-size:38px;color:#FFD700;font-weight:900;margin:0}
+.sub{color:#aaa;font-size:13px}
+ul{padding:0;list-style:none;margin:18px 0}
+li{padding:8px 0;border-bottom:1px solid #222}
+.paybox{background:#1c1c1c;border-radius:12px;padding:16px;margin-top:20px}
+.paybox b{color:#FFD700}
+input{width:100%;padding:14px;border-radius:10px;border:1px solid #333;background:#0f0f0f;color:#fff;margin:12px 0}
+.btn{width:100%;padding:14px;border:none;border-radius:10px;font-weight:800;cursor:pointer;margin-top:8px}
+.btn-gold{background:#FFD700;color:#000}
+.btn-wa{background:#25D366;color:#fff}
+.trust{text-align:center;font-size:11px;color:#777;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="header">COMPOSURE GOLDS KE</div>
+<div class="wrap">
+<div class="card">
+<p class="price">KES 2,500</p>
+<p class="sub">One-time • Lifetime access</p>
+<ul>
+<li>✅ Auto Lot Size Calculator</li>
+<li>✅ SL/TP in $ (not pips) - Know your loss</li>
+<li>✅ TradingView Indicator Invite</li>
+<li>✅ Lifetime Updates + Support</li>
+</ul>
+<div class="paybox">
+<b>Lipa Na M-Pesa</b><br>
+Send Money to: <b>0759674159</b><br>
+<span style="font-size:12px;color:#aaa">After paying, enter M-Pesa code below</span>
+<input id="mpesa" placeholder="Enter M-Pesa Code e.g. QGH7...">
+<button class="btn btn-gold" onclick="alert('Code '+document.getElementById('mpesa').value+' received! We will verify & send TradingView invite.')">Verify & Get Access</button>
+<button class="btn btn-wa" onclick="window.open('https://wa.me/254759674159','_blank')">WhatsApp Support</button>
+<div class="trust">✓ 100+ Traders • Instant Delivery • Secure</div>
+</div>
+</div>
+</div>
+</body>
+</html>
